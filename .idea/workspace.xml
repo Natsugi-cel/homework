@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c322bd0c-6020-486d-9e2d-8c3b5624ab75" name="Changes" comment="home work the first" />
+    <list default="true" id="c322bd0c-6020-486d-9e2d-8c3b5624ab75" name="Changes" comment="sekond task home work added 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -73,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704313345923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sekond task home work added 2">
+      <option name="closed" value="true" />
+      <created>1704314528706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704314528706</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin home work" />
     <MESSAGE value="home work the first" />
-    <option name="LAST_COMMIT_MESSAGE" value="home work the first" />
+    <MESSAGE value="sekond task home work added 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sekond task home work added 2" />
   </component>
 </project>

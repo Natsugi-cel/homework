@@ -1,22 +1,25 @@
 print("Hello world")
 ################### 1 ######################
 
-input: list[str] = input("Введіть три числа через пробіл: ").split()
-a, b, c = int(input[0]), int(input[1]), int(input[2])
-print("Введіть 1, щоб вивести максимум, 2 - мінімум, 3 - середнє арифметичне: ")
+num1 = int(input("Введите первое число: "))
+num2 = int(input("Введите второе число: "))
+num3 = int(input("Введите третье число: "))
 
-choice = int(input())
-if choice == 1:
-   print(max(a,b,c))
+operation = input("ввести 'max', 'min', или 'average': ")
+if operation == 'max':
 
-elif choice == 2:
-   print(min(a, b, c))
+    result = max(num1, num2, num3)
+    print("максимальне значення:", result)
+elif operation == 'min':
 
-elif choice == 3:
-   print((a + b + c) / 3)
+    result = min(num1, num2, num3)
+    print("мінімальне значення:", result)
+elif operation == 'average':
 
+    result = (num1 + num2 + num3) / 3
+    print("середне значення:", result)
 else:
-   print("Невірний вибір")
+    print("Введена неприпустима операція. Будь ласка повторіть 'max', 'min', or 'average'.")
 
 ######################### 2 #########################
 
