@@ -7,15 +7,12 @@ num3 = int(input("Введите третье число: "))
 
 operation = input("ввести 'max', 'min', или 'average': ")
 if operation == 'max':
-
     result = max(num1, num2, num3)
     print("максимальне значення:", result)
 elif operation == 'min':
-
     result = min(num1, num2, num3)
     print("мінімальне значення:", result)
 elif operation == 'average':
-
     result = (num1 + num2 + num3) / 3
     print("середне значення:", result)
 else:
